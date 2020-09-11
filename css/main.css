@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body {
+    font-family: 'Lato', sans-serif;
+}
+.common-container {
+    width: 1600px;
+     margin: 0 auto;
+}
+.centring-content {
+    width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+.header {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: inherit;
+    height: 100px;
+    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.17);
+    border-bottom: 1px solid #ececec;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: inherit;
+}
+.logo {
+    width: 165px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 37px;
+}
+.logo-img {
+    width: 59px;
+    height: inherit;
+}
+.logo-name {
+    box-sizing: border-box;
+    height: inherit;
+    font-size: 27px;
+    padding-top: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+} 
+.logo-name-last-letter {
+    font-weight: 900;
+    color: #f16d7f;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 403px;
+    height: 39px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+    overflow: hidden;
+}
+.browse {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 87px;
+    height: inherit;
+    border-right: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+}
+.browse-title {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+.browse-title i{
+   padding-left: 5px;
+}
+.browse:hover .browse-title {
+    color: white;
+}
+.browse:hover {
+    cursor: pointer;
+    background-image: none;
+    background-color: #f16d7f;
+}
+.search-field {
+    box-sizing: border-box;
+    width: 279px;
+    height: inherit;
+}
+.search-field input {
+    padding: 11px 16px;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #a4a4a4;
+}
+.search-button {
+    box-sizing: border-box;
+    padding: 11px;
+    width: 38px;
+    height: inherit;
+    border-left: 1px solid #e6e6e6;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a4a4;
+}
+.search-button:hover {
+    cursor: pointer;
+    background-color: #f16d7f;
+    color: white;
+}
+.cart-img {
+    width: 31px;
+    height: 28px;
+    margin-left: 349px;
+    margin-right: 26px;
+}
+.cart-img:hover {
+    width: 33px;
+    height: 30px;
+    margin-left: 348px;
+    margin-right: 25px;
+}
+.my-account {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    box-sizing: border-box;
+    padding: 9px 15px;
+}
+.my-account-title {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+.my-account-title i{
+   padding-left: 5px;
+}
+.my-account:hover {
+    cursor: pointer;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    outline: 1px solid #e6e6e6;
+}
+.my-account:hover .my-account-title {
+    color: #222222;
+}
