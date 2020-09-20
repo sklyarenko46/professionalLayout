@@ -1,0 +1,245 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.bread-crumb {
+	width: inherit;
+	height: 148px;
+	background-color: #f8f3f4;
+}
+.bread-crumb-content {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bread-crumb-selected {
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #f16d7f;
+}
+.bread-crumb-path {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #636363;
+}
+.bread-crumb-endpoint {
+	font-weight: 700;
+	color: #f16d7f;
+}
+.cart-content {
+	padding: 90px 0;
+}
+.purchased-products-form{
+	width: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.purchased-products-row {
+	width: inherit;
+	height: 115px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+.purchased-products-header {
+	height: 14px!important;
+}
+.purchased-products-header .purchased-products-cell {
+	font-size: 13px;
+	height: inherit;
+	line-height: 14px; 
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: -0.015em;
+	color: #222222;
+	text-align: center;
+}
+.purchased-products-row .purchased-products-cell:first-child {
+	width: 278px!important;
+	text-align: left!important;
+}
+.purchased-products-cell {
+	width: 100px;
+}
+.product-details-cell {
+	line-height: 12px;
+	text-align: left;
+}
+.product-details-cell img {
+	width: 100px;
+	height: 115px;
+	float: left; 
+}
+.product-details-cell h2,
+.product-details-cell p {
+	padding-left: 120px;
+}
+.product-details-cell h2 {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #222222;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+.product-details-cell p {
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #6f6e6e;
+}
+.product-details-cell p .product-parameter {
+	font-weight: 600;
+	color: #575757;
+	padding-right: 10px;
+}
+.unite-price-cell {
+	line-height: 115px;
+	text-align: center;
+	font-size: 13px;
+	color: #656565;
+}
+.quantity-cell {
+	line-height: 115px;
+	text-align: center;
+	font-size: 13px;
+	color: #656565;
+}
+.quantity-cell input {
+	width: 54px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+}
+.shipping-cell {
+	line-height: 115px;
+	text-align: center;
+	font-size: 13px;
+	color: #656565;
+}
+.subtotal-cell {
+	line-height: 115px;
+	text-align: center;
+	font-size: 13px;
+	color: #656565;
+}
+.action-cell {
+	line-height: 115px;
+	text-align: center;
+	color: #656565;
+}
+.action-cell:hover {
+	cursor: pointer;
+	color: #f16d7f;
+}
+.purchased-products-form button {
+	width: 235px;
+	height: 50px;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4a4a4a;
+}
+.purchased-products-form button:hover {
+	cursor: pointer;
+	color: white;
+	background-color: #f16d7f;
+	border: 1px solid #f16d7f;
+}
+.delivery-content {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 80px;
+}
+.delivery-content form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.delivery-content form h2{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #222222;
+}
+.delivery-content form input {
+	width: 355px;
+	height: 45px;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	font-size: 13px;
+	font-weight: 300;
+	color: #b1b1b1;
+	box-sizing: border-box;
+	padding-left: 18px;
+}
+.delivery-content form button {
+	width: 100px;
+	height: 35px;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4a4a4a;
+}
+.delivery-content form button:hover {
+	color: white;
+	background-color: #f16d7f;
+	border: none;
+}
+.shipping-address-form {
+	height: 268px;
+}
+.discount-form {
+	height: 184px;
+}
+.buy-form {
+	width: 360px;
+	height: 214px;
+	background-color: #f5f3f3;
+	box-sizing: border-box;
+	padding: 40px;
+	text-align: right;
+}
+.buy-form .checkout-button {
+	width: 273px;
+	height: 50px;
+	background-color: #f16d7f;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	border: none;
+}
+.buy-form .checkout-button:hover {
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	color: #4a4a4a;
+}
+.sub-total {
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #4a4a4a;
+}
+.sub-total .price {
+	padding-left: 15px;
+}
+.grand-total {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #222222;
+}
+.grand-total .price {
+	padding-left: 15px;
+	color: #f16d7f;
+}
