@@ -18,16 +18,24 @@
 	text-transform: uppercase;
 	color: #f16d7f;
 }
-.bread-crumb-path {
+.bread-crumb-path a,
+.bread-crumb-path span {
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #636363;
 }
-.bread-crumb-endpoint {
+.bread-crumb-path a:last-child {
 	font-weight: 700;
 	color: #f16d7f;
+}
+.bread-crumb-path a:hover {
+	color: #f16d7f;
+	font-weight: 700;
+}
+.bread-crumb-path a:last-child:hover {
+	cursor: default;
 }
 .cart-content {
 	padding: 90px 0;
