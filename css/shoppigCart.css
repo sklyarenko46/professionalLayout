@@ -51,7 +51,8 @@
 	height: 115px;
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 50px;
+	padding: 25px 0;
+	box-shadow: 0px 1px 1px -1px black;
 }
 .purchased-products-header {
 	height: 14px!important;
@@ -146,6 +147,7 @@
 	color: #f16d7f;
 }
 .purchased-products-form button {
+	margin-top: 44px;
 	width: 235px;
 	height: 50px;
 	background-color: #ffffff;
