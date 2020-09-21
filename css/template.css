@@ -142,16 +142,17 @@ body {
 .header-nav-bar-item {
     display: block;
     height: inherit;
-    width: 100%;
     text-align: center;
     font-size: 14px;
     line-height: 50px;
     font-weight: 900;
     text-transform: uppercase;
     color: #222222;
+    box-sizing: border-box;
 }
 .header-nav-bar-item:hover {
     color: #f16d7f;
+    border-bottom: 3px solid #f16d7f;
 }
 .page-filler {
     width: inherit;

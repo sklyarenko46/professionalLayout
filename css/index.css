@@ -3,10 +3,7 @@
 .top-banner {
     width: inherit;
     height: 614px;
-    background-image: url(../images/topHeaderBack.png);
-    background-repeat: no-repeat;
-    background-position: 762px  0px;
-    background-size: 554px;
+    
     background-color: #e8e8e8;
 }
 .top-banner-content {
@@ -14,6 +11,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../images/topHeaderBack.png);
+    background-repeat: no-repeat;
+    background-position: 579px 0px;
+    background-size: 554px;
 }
 .top-banner-text {
     width: 509px;
